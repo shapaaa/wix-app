@@ -1,0 +1,73 @@
+.columnDisplayContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.rowDisplayContainer {
+    display: flex;
+    align-items: center;
+}
+
+.staffContainer {
+
+}
+
+.serviceAndSession {
+
+}
+
+.serviceAndSessionRescheduleIcon {
+    color: #3999ec;
+    margin: 0 10px;
+    padding: 1px;
+}
+
+.serviceAndSessionRescheduleIcon:hover {
+    background: #3999ec;
+    color: white;
+    border-radius: 50%;
+}
+
+.staffReplaceIcon {
+    color: #3999ec;
+    margin: 0 10px;
+    padding: 1px;
+}
+
+.staffReplaceIcon:hover {
+    background: #3999ec;
+    color: white;
+    border-radius: 50%;
+}
+
+.paymentDetailsTooltip {
+
+}
+
+.paymentContent {
+    width: auto;
+    /*border: 3px solid yellow;*/
+    margin: 0;
+    padding: 0;
+}
+
+.paymentDetailsTooltipIcon {
+    margin: 0 10px;
+    border-radius: 50%;
+    background: white;
+    color: #3899ec;
+}
+
+.paymentDetailsTooltipIconFocused {
+    background: #3899ec;
+    color: white;
+}
+
+.paymentContentSection {
+    margin: 5px 0;
+}
+
+.platformIcon {
+    margin: 0 3px 0 0;
+    color: white;
+}

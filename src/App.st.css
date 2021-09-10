@@ -1,0 +1,7 @@
+.root {
+}
+
+:global(html) {
+    background-color: #F0F4F7;
+    color: white;
+}

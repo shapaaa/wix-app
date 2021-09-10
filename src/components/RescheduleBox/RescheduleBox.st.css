@@ -1,0 +1,43 @@
+.rescheduleBoxContainer {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    border: 1px solid #162d3d;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    margin: 0 5px;
+}
+
+.rescheduleBox {
+    align-items: flex-start;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.rescheduleBox:hover {
+    background: rgba(122, 122, 122, 0.1);
+}
+
+.rescheduleBoxSelected {
+    border: 1px solid #3999ec;
+}
+
+.rescheduleBoxSelected > span.rescheduleBoxLabel {
+    color: #3999ec;
+}
+
+.rescheduleBoxLabel {
+}
+
+.rescheduleBoxSkeleton {
+    padding: 0 10px;
+    justify-content: center;
+    width: 100%;
+}
+
+.rescheduleBoxSkeleton > div {
+    margin-bottom: 5px !important;
+
+}

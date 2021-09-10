@@ -1,0 +1,113 @@
+{
+  "submit": "Submit",
+  "cancel": "Cancel",
+  "lastNDays": "Last {{count}} days",
+  "nextNDays": "Next {{count}} days",
+  "BookingsList": {
+    "pageHeaderTitle": "Booking List",
+    "pageHeaderSubtitle": "Booking List Subtitle",
+    "noBookingsFound": "No Bookings Found...",
+    "TableColumnsTitles": {
+      "bookingTime": "Booking Time",
+      "clientName": "Client Name",
+      "serviceAndSession": "Service & Session",
+      "staff": "Staff",
+      "bookingAndAttendance": "Booking & Attendance",
+      "paymentStatus": "Payment Status",
+      "payment": "Payment"
+    },
+    "TableColumns": {
+      "notAvailable": "N/A"
+    }
+  },
+  "BookingStatus": {
+    "allBookingStatuses": "All Booking Statuses",
+    "confirmed": "Confirmed",
+    "pending": "Pending",
+    "cancelled": "Cancelled",
+    "pendingApproval": "Pending Approval",
+    "pendingCheckout": "Pending Checkout",
+    "declined": "Declined",
+    "undefined": "Undefined"
+  },
+  "BookingAndAttendanceDropdown": {
+    "booked": "Booked",
+    "approve": "Approve",
+    "confirmed": "Confirmed",
+    "pending": "Pending",
+    "pendingApproval": "Pending Approval",
+    "pendingCheckout": "Pending Checkout",
+    "checkedIn": "Checked-In",
+    "noShow": "No-Show",
+    "decline": "Decline",
+    "declined": "Declined",
+    "cancelled": "Cancelled"
+  },
+  "PaymentStatus": {
+    "unspecifiedPaymentStatus": "Unspecified Payment Status",
+    "notPaid": "Not Paid",
+    "paid": "Paid",
+    "partiallyRefunded": "Partially Refunded",
+    "fullyRefunded": "Fully Refunded",
+    "pending": "Pending"
+  },
+  "PaymentStatusDropdown": {
+    "paid": "Paid",
+    "paidInPerson": "Paid in Person",
+    "notPaid": "Not Paid",
+    "depositPaid": "Deposit Paid"
+  },
+  "PaymentInfo": {
+    "undefined": "Undefined",
+    "paid": "Paid",
+    "due": "Due",
+    "pendingCashier": "Pending Cashier",
+    "rejected": "Rejected",
+    "ready": "Ready",
+    "cancelled": "Cancelled",
+    "refunded": "Refunded",
+    "pendingMerchant": "Pending Merchant",
+    "wixPayFailure": "Wix Pay Failure",
+    "pendingMarkAsPaid": "Due",
+    "pendingBuyer": "Due",
+    "onlineDeposit": "{{count}} Online deposit"
+  },
+  "BookingInfoTooltip": {
+    "bookingPlatform": "Booking Platform",
+    "couponName": "Coupon Name",
+    "paymentMethodAndDetails": "Payment Method & Details",
+    "paidPlanDetails": "Paid Plan Details"
+  },
+  "BookingPlatform": {
+    "unavailable": "Unavailable",
+    "web": "Web",
+    "mobile": "Mobile"
+  },
+  "RescheduleModal": {
+    "title": "Reschedule Booking",
+    "confirmButtonText": "Reschedule",
+    "cancelButtonText": "Cancel",
+    "chooseNewSlotLabel": "Please choose a new slot for {{name}}'s {{booking}} booking at {{date}}:",
+    "rescheduleSuccessNotification": "The booking have been rescheduled successfully"
+  },
+  "ReplaceStaffModal": {
+    "title": "Replace Staff Member",
+    "confirmButtonText": "Replace",
+    "cancelButtonText": "Cancel",
+    "staffLabel": "Staff Member:",
+    "chooseNewStaffLabel": "Please choose a new staff member for {{name}}'s {{booking}} booking at {{date}}:",
+    "replaceStaffSuccessNotification": "The booking have been updated successfully"
+  },
+  "PaymentModal": {
+    "title": "Mark This Session as Paid?",
+    "confirmButtonText": "Mark as Paid",
+    "cancelButtonText": "Cancel",
+    "message": "Once you mark {{name}} as paid, it cannot be undone."
+  },
+  "WixPayDetails": {
+    "inPerson": "In Person",
+    "creditCard": "Credit Card",
+    "payPal": "PayPal",
+    "offline": "Offline"
+  }
+}
